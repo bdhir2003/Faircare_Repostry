@@ -1,0 +1,362 @@
+{
+  "exp001": {
+    "Logistic Regression": {
+      "recall_gap": 0.6727,
+      "fnr_gap": 0.6727,
+      "cal_gap": 0.1311,
+      "shap": "Available",
+      "best_recall": [
+        "[90-100)",
+        0.6727
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[90-100)",
+        0.3273
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    },
+    "Random Forest": {
+      "recall_gap": 0.0132,
+      "fnr_gap": 0.0132,
+      "cal_gap": 0.0481,
+      "shap": "Available",
+      "best_recall": [
+        "[30-40)",
+        0.0132
+      ],
+      "worst_recall": [
+        "AfricanAmerican",
+        0.0
+      ],
+      "best_fnr": [
+        "[30-40)",
+        0.9868
+      ],
+      "worst_fnr": [
+        "AfricanAmerican",
+        1.0
+      ]
+    },
+    "XGBoost": {
+      "recall_gap": 0.0769,
+      "fnr_gap": 0.0769,
+      "cal_gap": 0.0376,
+      "shap": "Available",
+      "best_recall": [
+        "[20-30)",
+        0.0769
+      ],
+      "worst_recall": [
+        "Unknown",
+        0.0
+      ],
+      "best_fnr": [
+        "[20-30)",
+        0.9231
+      ],
+      "worst_fnr": [
+        "Unknown",
+        1.0
+      ]
+    },
+    "MLP Neural Network": {
+      "recall_gap": 0.2222,
+      "fnr_gap": 0.2222,
+      "cal_gap": 0.0642,
+      "shap": "Available",
+      "best_recall": [
+        "Asian",
+        0.2222
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "Asian",
+        0.7778
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    }
+  },
+  "exp002": {
+    "Logistic Regression": {
+      "recall_gap": 0.6545,
+      "fnr_gap": 0.6545,
+      "cal_gap": 0.1562,
+      "shap": "Available",
+      "best_recall": [
+        "[90-100)",
+        0.6545
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[90-100)",
+        0.3455
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    },
+    "Random Forest": {
+      "recall_gap": 0.75,
+      "fnr_gap": 0.75,
+      "cal_gap": 0.1059,
+      "shap": "Available",
+      "best_recall": [
+        "[30-40)",
+        0.75
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[30-40)",
+        0.25
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    },
+    "XGBoost": {
+      "recall_gap": 0.7237,
+      "fnr_gap": 0.7237,
+      "cal_gap": 0.123,
+      "shap": "Available",
+      "best_recall": [
+        "[30-40)",
+        0.7237
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[30-40)",
+        0.2763
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    },
+    "MLP Neural Network": {
+      "recall_gap": 0.6447,
+      "fnr_gap": 0.6447,
+      "cal_gap": 0.1958,
+      "shap": "Available",
+      "best_recall": [
+        "[30-40)",
+        0.6447
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[30-40)",
+        0.3553
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    }
+  },
+  "exp003": {
+    "Logistic Regression": {
+      "recall_gap": 0.6727,
+      "fnr_gap": 0.6727,
+      "cal_gap": 0.1307,
+      "shap": "Available",
+      "best_recall": [
+        "[90-100)",
+        0.6727
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[90-100)",
+        0.3273
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    },
+    "Random Forest": {
+      "recall_gap": 0.0,
+      "fnr_gap": 0.0,
+      "cal_gap": 0.0545,
+      "shap": "Available",
+      "best_recall": [
+        "Caucasian",
+        0.0
+      ],
+      "worst_recall": [
+        "Caucasian",
+        0.0
+      ],
+      "best_fnr": [
+        "Caucasian",
+        1.0
+      ],
+      "worst_fnr": [
+        "Caucasian",
+        1.0
+      ]
+    },
+    "XGBoost": {
+      "recall_gap": 0.1282,
+      "fnr_gap": 0.1282,
+      "cal_gap": 0.0449,
+      "shap": "Available",
+      "best_recall": [
+        "[20-30)",
+        0.1282
+      ],
+      "worst_recall": [
+        "Unknown",
+        0.0
+      ],
+      "best_fnr": [
+        "[20-30)",
+        0.8718
+      ],
+      "worst_fnr": [
+        "Unknown",
+        1.0
+      ]
+    },
+    "MLP Neural Network": {
+      "recall_gap": 0.2051,
+      "fnr_gap": 0.2051,
+      "cal_gap": 0.05,
+      "shap": "Available",
+      "best_recall": [
+        "[20-30)",
+        0.2051
+      ],
+      "worst_recall": [
+        "Asian",
+        0.0
+      ],
+      "best_fnr": [
+        "[20-30)",
+        0.7949
+      ],
+      "worst_fnr": [
+        "Asian",
+        1.0
+      ]
+    }
+  },
+  "exp004": {
+    "Logistic Regression": {
+      "recall_gap": 0.6842,
+      "fnr_gap": 0.6842,
+      "cal_gap": 0.1118,
+      "shap": "Available",
+      "best_recall": [
+        "[30-40)",
+        0.6842
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[30-40)",
+        0.3158
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    },
+    "Random Forest": {
+      "recall_gap": 0.4889,
+      "fnr_gap": 0.4889,
+      "cal_gap": 0.0825,
+      "shap": "Available",
+      "best_recall": [
+        "Asian",
+        0.8889
+      ],
+      "worst_recall": [
+        "[90-100)",
+        0.4
+      ],
+      "best_fnr": [
+        "Asian",
+        0.1111
+      ],
+      "worst_fnr": [
+        "[90-100)",
+        0.6
+      ]
+    },
+    "XGBoost": {
+      "recall_gap": 0.7368,
+      "fnr_gap": 0.7368,
+      "cal_gap": 0.0868,
+      "shap": "Available",
+      "best_recall": [
+        "[30-40)",
+        0.7368
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "[30-40)",
+        0.2632
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    },
+    "MLP Neural Network": {
+      "recall_gap": 0.8889,
+      "fnr_gap": 0.8889,
+      "cal_gap": 0.2512,
+      "shap": "Available",
+      "best_recall": [
+        "Asian",
+        0.8889
+      ],
+      "worst_recall": [
+        "[10-20)",
+        0.0
+      ],
+      "best_fnr": [
+        "Asian",
+        0.1111
+      ],
+      "worst_fnr": [
+        "[10-20)",
+        1.0
+      ]
+    }
+  }
+}
